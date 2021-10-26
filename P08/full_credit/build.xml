@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<project name="Jade Project" default="build">
+ <presetdef name="javac">
+ <javac includeantruntime="false" />
+ </presetdef>
+ <target name="build" description="Compile source tree java files">
+ <javac debug="true" failonerror="true">
+ <src path="."/>
+ </javac>
+ </target>
+</project>
