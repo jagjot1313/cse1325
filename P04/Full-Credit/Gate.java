@@ -8,7 +8,7 @@ public class Boom {
     public void cli() {
         
         System.out.print("         =================\n" 
-                       + "             B O O M !\n"     
+                       + "             Gate !\n"     
                        + "         =================\n" 
                        + "Enter lower case letters to guess, \n"
                        + "! to propose a solution,\n"
@@ -24,7 +24,7 @@ public class Boom {
                if(puzzle.solve(in.nextLine())) {
                    System.out.println("*** W I N N E R ***");
                } else {
-                   System.out.println("###### BOOM ######");
+                   System.out.println("###### GATE ######");
                }
                break;
            } else {
@@ -33,7 +33,7 @@ public class Boom {
                } else {
                    System.out.println("No, " + guess + " is incorrect");
                    if (!fuse.burn()) {
-                       System.out.println("###### BOOM ######");
+                       System.out.println("###### GATE ######");
                        break;
                    }
                }
