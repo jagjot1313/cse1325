@@ -11,3 +11,13 @@ public class Java
    this.darkness=darkness;
  }
 }
+public void addShot(Shot shgot)
+{
+  this.shots.add(shot)
+}
+
+public String toString()}{
+    String str="name";
+    return str;
+}
+
