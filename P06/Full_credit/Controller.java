@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 
-public class Main
+public class Controller
 {
 String nameStore;
 int choice;
